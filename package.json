@@ -1,0 +1,15 @@
+{
+  "name": "eason-cli",
+  "version": "0.0.1",
+  "description": "front-end development scaffolding",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "cli",
+    "scaffolding"
+  ],
+  "author": "eason",
+  "license": "ISC"
+}
