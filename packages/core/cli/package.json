@@ -28,5 +28,8 @@
   },
   "bugs": {
     "url": "https://github.com/luozhiqiang-code/eason-cli/issues"
+  },
+  "dependencies": {
+    "npmlog": "^7.0.1"
   }
 }
