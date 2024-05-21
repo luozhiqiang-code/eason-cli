@@ -30,9 +30,11 @@
     "url": "https://github.com/luozhiqiang-code/eason-cli/issues"
   },
   "dependencies": {
+    "@eason-cli/exec": "file:../exec",
     "@eason-cli/get-npm-info": "file:../../utils/get-npm-info",
     "@eason-cli/log": "file:../../utils/log",
     "colors": "^1.4.0",
+    "commander": "^6.2.1",
     "dotenv": "^16.4.5",
     "npmlog": "^7.0.1",
     "root-check": "^1.0.0",
