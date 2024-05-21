@@ -1,0 +1,40 @@
+{
+  "name": "@eason-cli/get-npm-info",
+  "version": "0.0.0",
+  "description": "utils, get npm infomation",
+  "keywords": [
+    "utils",
+    "get",
+    "npm",
+    "infomation"
+  ],
+  "author": "luozhiqiang <luozhiqiang@datacloak.com>",
+  "homepage": "https://github.com/luozhiqiang-code/eason-cli#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://npm.dev.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luozhiqiang-code/eason-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@eason-cli/get-npm-info.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/luozhiqiang-code/eason-cli/issues"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "semver": "^7.6.2",
+    "url-join": "^4.0.1"
+  }
+}
