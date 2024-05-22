@@ -119,13 +119,13 @@ async function checkGlobalUpdate() {
   const currentVersion = pkg.version;
   const npmName = pkg.name;
   const { getNpmSemverVersion } = require("@eason-cli/get-npm-info");
-  const latestVersion = await getNpmSemverVersion(currentVersion, npmName);
-  if (latestVersion && semver.gt(latestVersion, currentVersion)) {
-    log.warn(
-      colors.yellow(
-        `请手动更新${npmName}, 当前版本${currentVersion}, 最新版本：${latestVersion}
-               更新命令：npm install -g ${npmName}`
-      )
-    );
-  }
+  // const latestVersion = await getNpmSemverVersion(currentVersion, npmName);
+  // if (latestVersion && semver.gt(latestVersion, currentVersion)) {
+  //   log.warn(
+  //     colors.yellow(
+  //       `请手动更新${npmName}, 当前版本${currentVersion}, 最新版本：${latestVersion}
+  //              更新命令：npm install -g ${npmName}`
+  //     )
+  //   );
+  // }
 }
