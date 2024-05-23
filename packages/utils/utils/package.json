@@ -1,0 +1,32 @@
+{
+  "name": "@eason-cli/utils",
+  "version": "0.0.0",
+  "description": "cli utils",
+  "keywords": [
+    "utils"
+  ],
+  "author": "luozhiqiang <luozhiqiang@datacloak.com>",
+  "homepage": "https://github.com/luozhiqiang-code/eason-cli#readme",
+  "license": "ISC",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://npm.dev.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luozhiqiang-code/eason-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@eason-cli/utils.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/luozhiqiang-code/eason-cli/issues"
+  }
+}
